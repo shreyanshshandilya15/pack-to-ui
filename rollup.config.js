@@ -9,6 +9,6 @@ export default defineConfig({
         format:"es",
         name:"pack-to-ui",
     },
-    external:["react","react-dom"],
+    external:['react',"react-dom"],
     plugins: [typescript({tsconfig:"tsconfig.json"})],
 });
